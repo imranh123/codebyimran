@@ -1,1 +1,37 @@
-hello imran test data. hello
+package p1;
+
+import java.util.Scanner;
+
+public class C2 {
+	
+	public void switchstatment() {
+		
+	Scanner console=new Scanner(System.in);
+	System.out.println("please enter number to check days name");
+	int usernumber=console.nextInt();
+	
+	
+	switch(usernumber) {
+	
+	case 1:
+	System.out.println("today is saturday");
+	break;
+	case 2:
+		System.out.println("today is sunday");
+		break;
+	case 3:
+		System.out.println("today is monday");
+		break;
+	case 4:
+		System.out.println("today is tuesday");
+		break;
+	case 5:
+		System.out.println("today is wednesday");
+		break;
+	case 6:
+		System.out.println("today is thursda");
+		break;
+	case 7:
+		System.out.println("today is friday");
+		break;
+	default:
